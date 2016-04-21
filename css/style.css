@@ -61,6 +61,9 @@ h5 {
 
 }
 
+ul#topContacts.flex-box{
+  margin-bottom: 10px;
+}
 
 .date-text {
   font-style: italic;
@@ -158,6 +161,7 @@ ul {
 
 img {
   padding: 10px;
+  /* box-shadow:  5px 5px 5px #efefef; */
 }
 
 span {
@@ -166,6 +170,11 @@ span {
 
 #lets-connect {
   text-align: center;
+}
+
+img {
+  width: 40%;
+  max-height: 40%;
 }
 
 /* Media queries to handle various device widths */
