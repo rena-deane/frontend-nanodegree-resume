@@ -154,12 +154,7 @@ for (job in work.jobs) {
 displayWork();
 
 //pass clicks to function
-$(document).click(function(loc) {
-  var x = loc.pageX;
-  var y = loc.pageY;
 
-  logClicks(x,y);
-});
 
 /*MY SOLUTION FOR BUTTON without helperJS
 
